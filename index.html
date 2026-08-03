@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jai Ntl</title>
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Jai Ntl">
+  <meta property="og:description" content="Welcome to my Bio">
+  <meta property="og:image" content="https://i.imgur.com/AUHTLKr.jpeg">
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #2b2b2b;
+      color: #ffffff;
+      font-family: 'Prompt', sans-serif;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* รูปโปรไฟล์แบบวงกลม */
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* ข้อความชื่อและไบโอ */
+    .name {
+      font-family: 'Caveat', cursive;
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .bio {
+      font-family: 'Caveat', cursive;
+      font-size: 1.4rem;
+      color: #dddddd;
+      margin-bottom: 24px;
+    }
+
+    /* แถบไอคอนโซเชียลด้านบน */
+    .social-icons {
+      display: flex;
+      gap: 18px;
+      margin-bottom: 30px;
+      font-size: 1.6rem;
+    }
+
+    .social-icons a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .social-icons a:hover {
+      transform: translateY(-3px);
+      color: #cccccc;
+    }
+
+    /* ปุ่มลิงก์ขอบขาวมน */
+    .link-btn {
+      width: 100%;
+      background-color: #1e1e1e;
+      border: 1.5px solid #ffffff;
+      border-radius: 50px;
+      padding: 12px 20px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .link-btn:hover {
+      background-color: #ffffff;
+      color: #1e1e1e;
+    }
+
+    .link-btn:hover .icon-circle {
+      border-color: #1e1e1e;
+      color: #1e1e1e;
+    }
+
+    /* วงกลมรอบไอคอนในปุ่ม */
+    .icon-circle {
+      width: 38px;
+      height: 38px;
+      border: 1.5px solid #ffffff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.1rem;
+      transition: all 0.2s ease;
+    }
+
+    /* ข้อความกลางปุ่ม */
+    .btn-text {
+      flex-grow: 1;
+      font-family: 'Caveat', cursive;
+      font-size: 1.5rem;
+      margin-right: 38px;
+    }
+
+    /* ข้อความด้านล่าง */
+    .footer-text {
+      font-family: 'Caveat', cursive;
+      font-size: 1.5rem;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- รูปโปรไฟล์ -->
+    <img class="profile-img" src="https://i.imgur.com/AUHTLKr.jpeg" alt="Profile Jai Ntl">
+
+    <!-- ชื่อโปรไฟล์ & คำอธิบาย -->
+    <h1 class="name">Jai Ntl</h1>
+    <p class="bio">Welcome to my Bio</p>
+
+    <!-- ไอคอนโซเชียลด้านบน -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/1BpNCoxKdz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/jai.ntl?igsh=MXZ6dzBxb29yZ2pwdg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@Jaintl" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.tiktok.com/@jai.ntl?_r=1&_t=ZS-98ZImB9Vi8m" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#" aria-label="Threads"><i class="fa-solid fa-threads"></i></a>
+    </div>
+
+    <!-- ปุ่มลิงก์ต่างๆ -->
+    <a href="https://wa.me/8562078268304" class="link-btn" target="_blank" rel="noopener noreferrer">
+      <div class="icon-circle">
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <span class="btn-text">WhatsApp</span>
+    </a>
+
+    <a href="https://www.facebook.com/share/1BpNCoxKdz/?mibextid=wwXIfr" class="link-btn" target="_blank" rel="noopener noreferrer">
+      <div class="icon-circle">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <span class="btn-text">Facebook</span>
+    </a>
+
+    <!-- ข้อความล่างสุด -->
+    <p class="footer-text">Thanks for See My Bio</p>
+  </div>
+
+</body>
+</html>
